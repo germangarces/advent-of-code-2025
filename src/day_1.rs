@@ -2,8 +2,6 @@ use crate::reader;
 use anyhow::{Error, Result, bail};
 use std::str::FromStr;
 
-// Keep your imports (crate::reader, etc.)
-
 #[derive(Debug)]
 enum Direction {
     Clockwise,
