@@ -23,7 +23,6 @@ impl FromStr for Range {
     }
 }
 
-// repeats 's' 'k' times and checks if equals to 'n'
 fn is_hit(s: &str) -> bool {
     if s.is_empty() {
         return false;
