@@ -1,7 +1,6 @@
-mod day_1;
-mod day_2;
+mod day_3;
 mod reader;
 
 fn main() {
-    println!("Day 2 -- solution: {:?}", day_2::solution());
+    println!("Day 3 -- solution: {:?}", day_3::solution());
 }
